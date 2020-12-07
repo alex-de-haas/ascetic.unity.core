@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Ascetic.Unity.Core;
+using System;
 using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace Ascetic.Unity.Core
+namespace Ascetic.Unity.Core.Editor
 {
     [CustomPropertyDrawer(typeof(PropertyFieldAttribute))]
     public class PropertyFieldAttributeDrawer : PropertyDrawer

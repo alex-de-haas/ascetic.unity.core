@@ -1,7 +1,8 @@
-﻿using UnityEditor;
+﻿using Ascetic.Unity.Core;
+using UnityEditor;
 using UnityEngine;
 
-namespace Ascetic.Unity.Core
+namespace Ascetic.Unity.Core.Editor
 {
     [CustomPropertyDrawer(typeof(NonNullCheckAttribute))]
     public class NonNullCheckPropertyDrawer : PropertyDrawer

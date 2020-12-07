@@ -1,0 +1,12 @@
+{
+    "name": "Ascetic.Unity.Core.Editor",
+    "references": [
+        "Ascetic.Unity.Core"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

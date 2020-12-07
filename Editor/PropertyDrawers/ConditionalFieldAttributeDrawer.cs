@@ -1,7 +1,8 @@
-﻿using UnityEditor;
+﻿using Ascetic.Unity.Core;
+using UnityEditor;
 using UnityEngine;
 
-namespace Ascetic.Unity.Core
+namespace Ascetic.Unity.Core.Editor
 {
     /// <summary>
     /// Based on: https://forum.unity.com/threads/draw-a-field-only-if-a-condition-is-met.448855/
