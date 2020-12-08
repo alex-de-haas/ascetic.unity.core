@@ -1,0 +1,17 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - run: npm i npm-cli-login
+      - run: npx npm-cli-login -u ascetic -p "${{ secrets.NPM_PASSWORD }}" -r https://ascetic.pro/npm -e "a.zayats@outlook.com"
+      - run: npm publish --registry https://ascetic.pro/npm
