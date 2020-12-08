@@ -12,7 +12,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
-      - run: yarn install
-      - run: npm publish --access public --registry https://ascetic.pro/npm
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      - run: npm i npm-cli-login
+      - run: npm-cli-login -u ascetic -p "${{ secrets.NPM_PASSWORD }}" -r https://ascetic.pro/npm -e "a.zayats@outlook.com" --config-path "$PWD/.npmrc"
+      - run: npm publish --registry https://ascetic.pro/npm
