@@ -13,5 +13,5 @@ jobs:
         with:
           node-version: 14
       - run: npm i npm-cli-login
-      - run: npm npm-cli-login -u ascetic -p "${{ secrets.NPM_PASSWORD }}" -r https://ascetic.pro/npm -e "a.zayats@outlook.com" --config-path "$PWD/.npmrc"
+      - run: npm npm-cli-login -u ascetic -p "${{ secrets.NPM_PASSWORD }}" -r https://ascetic.pro/npm -e "a.zayats@outlook.com"
       - run: npm publish --registry https://ascetic.pro/npm
