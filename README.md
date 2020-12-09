@@ -1,4 +1,4 @@
-# Install
+### Install
 
 1. Open: Edit -> Project Settings -> Package Manager
 2. Add new scoped registry:
