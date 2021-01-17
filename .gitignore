@@ -60,4 +60,5 @@ crashlytics-build.properties
 
 #NPM
 /node_modules
-
+node_modules.meta
+yarn.lock.meta
