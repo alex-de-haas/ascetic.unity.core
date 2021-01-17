@@ -65,3 +65,4 @@ yarn.lock.meta
 
 # Logs
 *.log
+*.log.meta
