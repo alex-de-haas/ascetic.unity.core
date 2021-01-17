@@ -12,7 +12,7 @@ Core package for Unity. Contains editor improvements and common functionality fo
     "name": "NPM",
     "url": "https://registry.npmjs.org",
     "scopes": [
-      "com.fluid"
+      "ascetic"
     ]
   }
 ]
