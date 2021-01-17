@@ -58,7 +58,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-#NPM
+# NPM
 /node_modules
 node_modules.meta
 yarn.lock.meta
+
+# Logs
+*.log
