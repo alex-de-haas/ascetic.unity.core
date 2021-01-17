@@ -2,7 +2,7 @@
   "name": "ascetic.unity.core",
   "displayName": "Ascetic's Unity Core",
   "description": "Core package for Unity. Contains editor improvements and common functionality for other packages.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2019.3",
   "hideInEditor": false,
   "keywords": [
