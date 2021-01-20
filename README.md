@@ -2,6 +2,8 @@
 
 [![npm](https://img.shields.io/npm/v/ascetic.unity.core?style=for-the-badge)](https://www.npmjs.com/package/ascetic.unity.core)
 [![npm](https://img.shields.io/npm/dw/ascetic.unity.core?style=for-the-badge)](https://www.npmjs.com/package/ascetic.unity.core)
+[![GitHub](https://img.shields.io/github/license/alexzayats/ascetic.unity.core?style=for-the-badge)](https://github.com/AlexZayats/ascetic.unity.core)
+[![GitHub](https://img.shields.io/github/workflow/status/alexzayats/ascetic.unity.core/Node.js%20Package?style=for-the-badge)](https://github.com/AlexZayats/ascetic.unity.core)
 
 Core package for Unity. Contains editor improvements and common functionality for other packages.
 
