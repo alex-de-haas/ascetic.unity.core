@@ -1,5 +1,8 @@
 # Ascetic's Unity Core
 
+![npm](https://img.shields.io/npm/v/ascetic.unity.core?style=for-the-badge)
+![npm](https://img.shields.io/npm/dw/ascetic.unity.core?style=for-the-badge)
+
 Core package for Unity. Contains editor improvements and common functionality for other packages.
 
 ## Installation
